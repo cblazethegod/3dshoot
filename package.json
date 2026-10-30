@@ -1,0 +1,12 @@
+{
+  "name": "3dshoot",
+  "version": "1.0.0",
+  "description": "Low poly mobile FPS with offline bots and optional WebSocket multiplayer",
+  "scripts": {
+    "server": "node server.js",
+    "web": "npx http-server . -p 5173 -c-1"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
